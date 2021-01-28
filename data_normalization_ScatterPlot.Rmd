@@ -8,6 +8,7 @@ output: html_document
 
 ####load the data
 ```{r}
+library(utils)
 setwd('~/Documents/work/paper_write/genome_training/R_training/')
 df <- read.table('vehicle_drug_feature_counts.txt',
                  header = T, sep = '\t', row.names = 1)
